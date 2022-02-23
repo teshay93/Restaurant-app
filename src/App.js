@@ -1,8 +1,11 @@
-import React from 'react'
-
+import React from 'react';
+import  Navbar from './components/Navbar/Navbar';
+import './index.css'
 export const App = () => {
   return (
-    <div><h1>gdsdfdf</h1></div>
+    <div>
+        <Navbar />
+    </div>
   )
 }
 
